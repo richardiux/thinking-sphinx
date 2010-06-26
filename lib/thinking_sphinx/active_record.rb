@@ -65,7 +65,7 @@ module ThinkingSphinx
             ThinkingSphinx.reset_context!
           end
           
-          alias_method_chain :reset_subclasses, :thinking_sphinx
+          # alias_method_chain :reset_subclasses, :thinking_sphinx
           
           private
           
